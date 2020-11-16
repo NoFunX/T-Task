@@ -1,0 +1,73 @@
+.header {
+    display: inline-block;
+    background-image: url("D:/mine/T-Task/app/img/Rectangle 1.png");
+    background-size: cover;
+    width: 100%;
+
+    .wrapper {
+        margin: 0px 115px 32px 110px;
+        display: flex;
+        justify-content: space-between;
+
+        .wrapper_img {
+            margin-top: 26px;
+        }
+
+        .links {
+            display: inline-block;
+            margin-top: 52px;
+
+            .links_a {
+                color: #FFFFFF;
+                text-decoration: none;
+                margin-right: 70px; 
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 22px;
+                opacity: 1;
+            }
+            
+            .links_a:hover {
+                opacity: 0.4;
+            }
+        }
+
+        
+
+        .wrapper_p {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            margin-top: 52px;
+            color: #FFFFFF;
+            margin-left: -27px;
+
+            span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: right;
+            }
+        }
+
+    }
+
+    .wrapper_h1 {
+        display:inline-block;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 46px;
+        color: #FFFFFF;
+        margin-left: 113px;
+        margin-bottom: 68px;
+    }
+
+    @import "../templates/_header/_@media.scss";
+}
+
+
+
