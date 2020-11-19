@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: Montserrat, sans-serif; }
 
@@ -19,7 +20,11 @@ body {
       max-width: 1280px; }
       body .content .header .wrapper {
         margin: 0px 9% 32px 8.9%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between; }
         body .content .header .wrapper .wrapper_img {
           margin-top: 26px;
@@ -149,8 +154,13 @@ body {
         body .content .main .sort .sort_par:hover {
           border-bottom: 1px solid grey; }
       body .content .main .cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         margin: 3.5% 0% 0% 0%;
         max-width: 100%; }
@@ -158,6 +168,8 @@ body {
           margin-right: 1.8%;
           background-color: #F3F3F3;
           margin-bottom: 3%;
+          -webkit-transition: 1s;
+          -o-transition: 1s;
           transition: 1s;
           position: relative;
           width: 26.2%;
@@ -206,7 +218,11 @@ body {
           body .content .main .cards .card .card_button:focus {
             outline: none; }
           body .content .main .cards .card .info {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
             border-left: 4px solid #6EBBD3;
             padding-left: 3%;
@@ -228,6 +244,8 @@ body {
                 body .content .main .cards .card .info p span b {
                   text-align: left; }
         body .content .main .cards .card:hover {
+          -webkit-transform: scale(1.01);
+          -ms-transform: scale(1.01);
           transform: scale(1.01); }
         body .content .main .cards .card:nth-child(1):before {
           content: url("D:/mine/T-Task/app/img/-40%.png");
@@ -308,6 +326,8 @@ body {
         padding: 2% 8% 2% 8%;
         position: relative;
         left: 50.0%;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
         margin-top: 4%; }
     @media screen and (max-width: 900px) {
@@ -323,7 +343,12 @@ body {
       body .content .main .cards .card .info {
         border-left: 0px;
         padding: 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 1%;
         margin-bottom: 1%; }
@@ -371,6 +396,8 @@ body {
       margin: 7% 9% 0% 9%;
       width: 82%; }
       body .content .footer .block {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin: 7% 6% 8% 6%;
         width: 100%; }
@@ -394,7 +421,12 @@ body {
           width: 55%; }
           body .content .footer .block .block_2 .block_2_form {
             margin-top: 1%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
             flex-flow: row wrap;
             margin-left: 7%; }
             body .content .footer .block .block_2 .block_2_form .block_2_form_email {
@@ -430,6 +462,8 @@ body {
               background-color: #333;
               border: 2px solid #156360; }
             body .content .footer .block .block_2 .block_2_form label {
+              display: -webkit-box;
+              display: -ms-flexbox;
               display: flex; }
               body .content .footer .block .block_2 .block_2_form label .block_2_form_label_checkbox {
                 margin-top: 10%;
@@ -463,6 +497,8 @@ body {
                 position: absolute;
                 top: 47%;
                 left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
                 display: none; }
               body .content .footer .block .block_2 .block_2_form label .block_2_form_label_checkbox:checked + .block_2_form_label_fake:before {
@@ -472,8 +508,15 @@ body {
         line-height: 30px; } }
     @media screen and (max-width: 768px) {
       body .content .footer .block {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         width: 88%;
         margin-bottom: 3%; }
@@ -496,6 +539,8 @@ body {
             font-size: 10px;
             width: 45%; }
           body .content .footer .block .block_2 .block_2_form label {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex; }
             body .content .footer .block .block_2 .block_2_form label .block_2_form_label_checkbox {
               margin-top: 5%;
@@ -554,7 +599,7 @@ body {
         position: relative; } }
     @media screen and (max-width: 480px) {
       body .content .footer .block .block_1 p {
-        margin-left: 10px; }
+        margin-left: 5px; }
       body .content .footer .block .block_2 .block_2_form label .block_2_form_label_checkbox {
         margin-top: 5%;
         display: none;
@@ -584,10 +629,16 @@ body {
         margin-left: 1px;
         position: relative; } }
     @media screen and (max-width: 320px) {
+      body .content .footer .block .block_1 span {
+        margin-left: 1%; }
+      body .content .footer .block .block_1 p {
+        font-size: 17px; }
       body .content .footer .block .block_2 {
         width: 100%; }
         body .content .footer .block .block_2 .block_2_form {
           width: 100%; }
+          body .content .footer .block .block_2 .block_2_form .block_2_form_email {
+            width: 40%; }
           body .content .footer .block .block_2 .block_2_form .block_2_form_submit {
             width: 43%; } }
 

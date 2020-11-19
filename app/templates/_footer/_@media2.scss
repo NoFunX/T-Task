@@ -137,7 +137,7 @@
             .block {
                 .block_1 {
                     p {
-                        margin-left: 10px;
+                        margin-left: 5px;
                     }
                 }
                 .block_2 {
@@ -185,10 +185,24 @@
     @media screen and (max-width: 320px) {
         .footer {
             .block {
+                .block_1 {
+
+                    span {
+                        margin-left: 1%;
+                    }
+                    p {
+                        font-size: 17px;
+                    }
+                }
                 .block_2 {
                     width: 100%;
                     .block_2_form {
                         width: 100%;
+
+                        .block_2_form_email {
+                            width: 40%;
+
+                        }
                         .block_2_form_submit {
                             width: 43%;
 

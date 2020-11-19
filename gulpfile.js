@@ -5,14 +5,6 @@ const pug = require ( 'gulp-pug' );
 const watch = require ('gulp-watch');
 const sass = require ('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
- 
-exports.default = () => (
-    gulp.src('app/scss/styles.scss')
-        .pipe(autoprefixer({
-            cascade: false
-        }))
-        .pipe(gulp.dest('dist'))
-);
 
 function Pug () {
   return gulp.src('app/pug/*.pug')
@@ -31,6 +23,9 @@ function watcher() {
 function Sass() {
   return gulp.src('app/scss/*scss')
     .pipe(sass())
+    .pipe(autoprefixer({
+      cascade: false
+    }))
     .pipe(gulp.dest('dist'))
 }
  
