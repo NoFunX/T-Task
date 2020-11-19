@@ -18,11 +18,17 @@
   "dependencies": {
     "gulp-pug": "^4.0.1"
   },
-  "browserslist": [
-    "last 7 version",
-    "> 1%",
-    "IE 10",
-    "IE 11"
-    
-  ]
+  "browserslist": {
+    "production": [
+      "> 1%",
+      "ie 10"
+    ],
+    "modern": [
+      "last 3 chrome version",
+      "last 3 firefox version"
+    ],
+    "ssr": [
+      "node 12"
+    ]
+  }
 }
