@@ -553,6 +553,8 @@ body {
         margin-left: 1px;
         position: relative; } }
     @media screen and (max-width: 480px) {
+      body .content .footer .block .block_1 p {
+        margin-left: 10px; }
       body .content .footer .block .block_2 .block_2_form label .block_2_form_label_checkbox {
         margin-top: 5%;
         display: none;

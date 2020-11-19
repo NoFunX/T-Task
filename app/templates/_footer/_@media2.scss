@@ -135,6 +135,11 @@
     @media screen and (max-width: 480px) {
         .footer {
             .block {
+                .block_1 {
+                    p {
+                        margin-left: 10px;
+                    }
+                }
                 .block_2 {
                     .block_2_form {
                         label {
