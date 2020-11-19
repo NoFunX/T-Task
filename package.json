@@ -20,12 +20,13 @@
   },
   "browserslist": {
     "production": [
+      "last 2 version",
       "> 1%",
       "ie 10"
     ],
     "modern": [
-      "last 3 chrome version",
-      "last 3 firefox version"
+      "last 1 chrome version",
+      "Firefox >= 2"
     ],
     "ssr": [
       "node 12"
