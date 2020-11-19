@@ -4,51 +4,51 @@ div.main
         span.sort_par Цене
         span.sort_par Возрасту
 
-    div.cards
+    div(align="center").cards
             
-        mixin cardsList(src, title, h4, button)
+        mixin cardsList(src, title, h4, button1, button2, url)
             div.card
                 img(src=src)
-                h5= title
+                h5(align="left")= title
                 div.info
                     if block
                         block
 
                     else 
                         p -
-                h4= h4
-                button= button
+                h4(align="left")= h4
+                button.card_button= button1
             
 
-        +cardsList("D:/mine/T-Task/app/img/1.png", "Кот полосатый", "25000 руб.", "Купить")
+        +cardsList("D:/mine/T-Task/app/img/1.png", "Кот полосатый", "25000 руб.", "Купить", "app/img/-40%.png")
             p Коричнеый <br> окрас
             p <span> 2 мес.</span><br> Возраст 
-            p <span> 4</span> <br> Кол-во лапок
+            p <span><b> 4</b></span> <br> Кол-во лапок
 
-        +cardsList("D:/mine/T-Task/app/img/2.png", "Кот полосатый", "40000 руб.", "Купить")
+        +cardsList("D:/mine/T-Task/app/img/2.png", "Кот полосатый", "40000 руб.", "Продан")
             p Коричнеый <br> окрас
             p <span> 2 мес.</span><br> Возраст 
-            p <span> 4</span> <br> Кол-во лапок
+            p <span><b> 4</b></span> <br> Кол-во лапок
 
         +cardsList("D:/mine/T-Task/app/img/3.png", "Кот полосатый", "20000 руб.", "Купить")
             p Коричнеый <br> окрас
             p <span> 2 мес.</span><br> Возраст 
-            p <span> 4</span> <br> Кол-во лапок
+            p <span><b> 4</b></span> <br> Кол-во лапок
 
         +cardsList("D:/mine/T-Task/app/img/4.png", "Кот полосатый", "25000 руб.", "Купить")
             p Коричнеый <br> окрас
             p <span> 2 мес.</span><br> Возраст 
-            p <span> 4</span> <br> Кол-во лапок
+            p <span><b> 4</b></span> <br> Кол-во лапок
         
         +cardsList("D:/mine/T-Task/app/img/5.png", "Кот полосатый", "30000 руб.", "Купить")
             p Коричнеый <br> окрас
             p <span> 2 мес.</span><br> Возраст 
-            p <span> 4</span> <br> Кол-во лапок
+            p <span><b> 4</b></span> <br> Кол-во лапок
 
-        +cardsList("D:/mine/T-Task/app/img/6.png", "Кот полосатый", "10000 руб.", "Купить")
+        +cardsList("D:/mine/T-Task/app/img/6.png", "Кот полосатый", "10000 руб.", "Продан")
             p Коричнеый <br> окрас
             p <span> 2 мес.</span><br> Возраст 
-            p <span> 4</span> <br> Кол-во лапок
+            p <span><b> 4</b></span> <br> Кол-во лапок
 
 
     button.main_button Показать еще 20

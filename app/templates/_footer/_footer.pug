@@ -1,11 +1,17 @@
 div.footer
-    div.wrap 
-        div.block1
-            span Успей купить
+    div.block 
+        div.block_1
+            span Успей купить!
             p Подпишись и успей <br> словить все акции
 
-        div.block2
-            form
-                input.email(type="text" value="Email")
-                button Подписаться
-                input.checkbox(type="checkbox")
+        div.block_2
+            form.block_2_form
+                input(type="email" multiple value="Email").block_2_form_email
+                input(type="submit" value= "Подписаться").block_2_form_submit
+                label.block_2_form_label
+                    input(type="checkbox" checked).block_2_form_label_checkbox
+                    span.block_2_form_label_fake
+                    p(for="receipt").block_2_form_label_p Подписаться на все новости 
+                
+                
+                    

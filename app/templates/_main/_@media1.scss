@@ -1,0 +1,121 @@
+@media screen and (max-width: 900px) {
+    .main {
+        .cards {
+            .card {
+                .info {
+                    border-left: 0px;
+                    padding: 0px;
+    }
+    }}
+}}
+
+
+@media screen and (max-width: 768px) {
+    .main {
+        .cards {
+            .card {
+                h5 {
+                    margin-top: 1%;
+                    text-align: center;
+                }
+
+                h4 {
+                    text-align: center;
+                }
+                .info {
+                    border-left: 0px;
+                    padding: 0px;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 1%;
+                    margin-bottom: 1%;
+                    p {
+                        width: 100%;
+                        border-bottom: 1px solid white;
+                        text-align: center;
+                        span {
+                            b {
+                                margin-right: 0%;
+                            }
+                        }
+                    }
+    }
+    }}
+}}
+
+
+@media screen and (max-width: 480px) {
+    .main {
+        .cards {
+            .card {
+                width: 39%;
+
+                .card_button {
+                    margin-top: 1%;
+                }
+
+                
+        }
+
+        .card:nth-child(2){
+            .card_button {
+                margin-top: 1%;
+                }
+    }
+
+        .card:nth-child(6){
+            .card_button {
+                margin-top: 1%;
+            }
+
+        }
+
+        .card:nth-child(3) {
+                margin-right: 1.8%;
+            }
+
+            .card:nth-child(4) {
+                margin-right: 0px;
+            }
+
+            .card:nth-child(6) {
+                margin-right: 0px;
+            }
+
+            .card:nth-child(2) {
+                margin-right: 0px;
+            }
+    }
+
+    .card:nth-child(n):before{
+        content: url("D:/mine/T-Task/app/img/-40%.png");
+        display: none;
+        }
+    } 
+    .card:nth-child(n):after{
+        content: url("D:/mine/T-Task/app/img/-40%.png");
+        display: none;
+        }
+}
+
+@media screen and (max-width: 320px) {
+    .main {
+        .sort_par:after {
+        content: url("D:/mine/T-Task/app/img/strelka.png");
+        margin-left: 1%;
+        max-width: 100%;
+        }
+        .cards {
+            .card {
+
+                h5 {
+                    margin-left: 0px;
+                }
+                .info {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
