@@ -15,7 +15,6 @@
         .sort_par {
             font-style: normal;
             font-weight: normal;
-            @include adaptiv-font(18px, 15px);
             line-height: 22px;
             color: #000000;
             margin-right: 4%;
@@ -28,6 +27,7 @@
 
         .sort_par:hover {
             border-bottom: 1px solid grey;
+            cursor: pointer;
             
         }
     }
@@ -126,7 +126,7 @@
                 p {
                     font-style: normal;
                     font-weight: normal;
-                    font-size: 12px;
+                    font-size: 13px;
                     line-height: 15px;
                    
 
@@ -137,7 +137,7 @@
                         line-height: 20px;
                         color: #000000;
                             b {
-                                text-align: left;
+                                margin-right: 70px;
                             }
                         
                         }

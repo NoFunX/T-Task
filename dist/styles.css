@@ -143,7 +143,6 @@ body {
         body .content .main .sort .sort_par {
           font-style: normal;
           font-weight: normal;
-          font-size: calc(15pxpx + 3px * ((100vw - 320px) / 960px));
           line-height: 22px;
           color: #000000;
           margin-right: 4%;
@@ -152,7 +151,8 @@ body {
           content: url("D:/mine/T-Task/app/img/strelka.png");
           margin-left: 1%; }
         body .content .main .sort .sort_par:hover {
-          border-bottom: 1px solid grey; }
+          border-bottom: 1px solid grey;
+          cursor: pointer; }
       body .content .main .cards {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -169,7 +169,6 @@ body {
           background-color: #F3F3F3;
           margin-bottom: 3%;
           -webkit-transition: 1s;
-          -o-transition: 1s;
           transition: 1s;
           position: relative;
           width: 26.2%;
@@ -233,7 +232,7 @@ body {
             body .content .main .cards .card .info p {
               font-style: normal;
               font-weight: normal;
-              font-size: 12px;
+              font-size: 13px;
               line-height: 15px; }
               body .content .main .cards .card .info p span {
                 font-style: normal;
@@ -242,10 +241,9 @@ body {
                 line-height: 20px;
                 color: #000000; }
                 body .content .main .cards .card .info p span b {
-                  text-align: left; }
+                  margin-right: 70px; }
         body .content .main .cards .card:hover {
           -webkit-transform: scale(1.01);
-          -ms-transform: scale(1.01);
           transform: scale(1.01); }
         body .content .main .cards .card:nth-child(1):before {
           content: url("D:/mine/T-Task/app/img/-40%.png");
@@ -327,13 +325,16 @@ body {
         position: relative;
         left: 50.0%;
         -webkit-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
         margin-top: 4%; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       body .content .main .cards .card .info {
         border-left: 0px;
-        padding: 0px; } }
+        padding: 0px; }
+        body .content .main .cards .card .info p {
+          font-size: 12px; }
+          body .content .main .cards .card .info p span b {
+            margin-right: 0px; } }
     @media screen and (max-width: 768px) {
       body .content .main .cards .card h5 {
         margin-top: 1%;
@@ -498,7 +499,6 @@ body {
                 top: 47%;
                 left: 50%;
                 -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
                 display: none; }
               body .content .footer .block .block_2 .block_2_form label .block_2_form_label_checkbox:checked + .block_2_form_label_fake:before {
