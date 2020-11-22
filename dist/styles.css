@@ -14,7 +14,7 @@ body {
     background-color: white; }
     body .content .header {
       display: inline-block;
-      background-image: url("D:/mine/T-Task/app/img/Rectangle 1.png");
+      background-image: url("app/img/Rectangle 1.png");
       background-size: cover;
       width: 100%;
       max-width: 1280px; }
