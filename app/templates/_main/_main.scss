@@ -21,7 +21,7 @@
             font-size: calc(12px + 6 * ((100vw - 320px) / (1280 - 320)));
         }
         .sort_par:after {
-            content: url("D:/mine/T-Task/app/img/strelka.png");
+            content: url("app/img/strelka.png");
             margin-left: 1%;
         }
 
@@ -152,56 +152,56 @@
                 }
 
             .card:nth-child(1):before{
-                content: url("D:/mine/T-Task/app/img/-40%.png");
+                content: url("app/img/-40%.png");
                 position: absolute;
                 top: 5%;
                 left: 8%;
                 }
 
             .card:nth-child(1):after{
-                content: url("D:/mine/T-Task/app/img/first.png");
+                content: url("app/img/first.png");
                 position: absolute;
                 top: 6%;
                 right: 8%;
                 }
 
             .card:nth-child(2):after{
-                content: url("D:/mine/T-Task/app/img/second.png");
+                content: url("app/img/second.png");
                 position: absolute;
                 top: 6%;
                 right: 8%;
                 }
 
             .card:nth-child(3):after{
-                content: url("D:/mine/T-Task/app/img/third.png");
+                content: url("app/img/third.png");
                 position: absolute;
                 top: 6%;
                 right: 8%;
                 }
 
             .card:nth-child(4):after{
-                content: url("D:/mine/T-Task/app/img/first.png");
+                content: url("app/img/first.png");
                 position: absolute;
                 top: 6%;
                 right: 8%;
                 }
 
             .card:nth-child(5):after{
-                content: url("D:/mine/T-Task/app/img/third.png");
+                content: url("app/img/third.png");
                 position: absolute;
                 top: 6%;
                 right: 8%;
                 }
 
             .card:nth-child(6):after{
-                content: url("D:/mine/T-Task/app/img/second.png");
+                content: url("app/img/second.png");
                 position: absolute;
                 top: 6%;
                 right: 8%;
                 }
 
             .card:nth-child(5):before{
-                content: url("D:/mine/T-Task/app/img/-40%.png");
+                content: url("app/img/-40%.png");
                 position: absolute;
                 top: 5%;
                 left: 8%;

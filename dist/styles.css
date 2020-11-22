@@ -148,7 +148,7 @@ body {
           margin-right: 4%;
           font-size: calc(12px + 6 * ((100vw - 320px) / (1280 - 320))); }
         body .content .main .sort .sort_par:after {
-          content: url("D:/mine/T-Task/app/img/strelka.png");
+          content: url("app/img/strelka.png");
           margin-left: 1%; }
         body .content .main .sort .sort_par:hover {
           border-bottom: 1px solid grey;
@@ -246,42 +246,42 @@ body {
           -webkit-transform: scale(1.01);
           transform: scale(1.01); }
         body .content .main .cards .card:nth-child(1):before {
-          content: url("D:/mine/T-Task/app/img/-40%.png");
+          content: url("app/img/-40%.png");
           position: absolute;
           top: 5%;
           left: 8%; }
         body .content .main .cards .card:nth-child(1):after {
-          content: url("D:/mine/T-Task/app/img/first.png");
+          content: url("app/img/first.png");
           position: absolute;
           top: 6%;
           right: 8%; }
         body .content .main .cards .card:nth-child(2):after {
-          content: url("D:/mine/T-Task/app/img/second.png");
+          content: url("app/img/second.png");
           position: absolute;
           top: 6%;
           right: 8%; }
         body .content .main .cards .card:nth-child(3):after {
-          content: url("D:/mine/T-Task/app/img/third.png");
+          content: url("app/img/third.png");
           position: absolute;
           top: 6%;
           right: 8%; }
         body .content .main .cards .card:nth-child(4):after {
-          content: url("D:/mine/T-Task/app/img/first.png");
+          content: url("app/img/first.png");
           position: absolute;
           top: 6%;
           right: 8%; }
         body .content .main .cards .card:nth-child(5):after {
-          content: url("D:/mine/T-Task/app/img/third.png");
+          content: url("app/img/third.png");
           position: absolute;
           top: 6%;
           right: 8%; }
         body .content .main .cards .card:nth-child(6):after {
-          content: url("D:/mine/T-Task/app/img/second.png");
+          content: url("app/img/second.png");
           position: absolute;
           top: 6%;
           right: 8%; }
         body .content .main .cards .card:nth-child(5):before {
-          content: url("D:/mine/T-Task/app/img/-40%.png");
+          content: url("app/img/-40%.png");
           position: absolute;
           top: 5%;
           left: 8%; }
@@ -494,7 +494,7 @@ body {
                 margin-left: 1px;
                 position: relative; }
               body .content .footer .block .block_2 .block_2_form label .block_2_form_label_fake:before {
-                content: url("D:/mine/T-Task/app/img/checked.png");
+                content: url("app/img/checked.png");
                 position: absolute;
                 top: 47%;
                 left: 50%;
