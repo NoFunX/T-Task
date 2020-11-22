@@ -1,13 +1,13 @@
 div.main
     div.sort
         span.sort_sortBy <b>Сортировать по:</b>
-        span.sort_par Цене
-        span.sort_par Возрасту
+        span(id="price").sort_par Цене
+        span(id="age").sort_par Возрасту
 
     div(align="center").cards
             
-        mixin cardsList(src, title, h4, button1, button2, url)
-            div.card&attributes(attributes)
+        mixin cardsList(src, title, h4, button, url)
+            div.card
                 img(src=src)
                 h5(align="left")= title
                 div.info
@@ -15,39 +15,39 @@ div.main
                         block
 
                     else 
-                        p -
+                        p 
                 h4(align="left")= h4
-                button.card_button= button1
+                button.card_button= button
             
 
         +cardsList( "D:/mine/T-Task/app/img/1.png", "Кот полосатый", "25000 руб.", "Купить", "app/img/-40%.png")
-            p(id="25") Коричнеый <br> окрас
-            p <span> 2 мес.</span><br> Возраст 
+            p Коричнеый <br> окрас
+            p(id="2") <span> 2 мес.</span><br> Возраст 
             p <span><b> 4</b></span> <br> Кол-во лапок
 
         +cardsList("D:/mine/T-Task/app/img/2.png", "Кот полосатый", "40000 руб.", "Продан")
-            p(id="40") Коричнеый <br> окрас
-            p <span> 2 мес.</span><br> Возраст 
+            p Коричнеый <br> окрас
+            p(id="8") <span> 8 мес.</span><br> Возраст 
             p <span><b> 4</b></span> <br> Кол-во лапок
 
         +cardsList("D:/mine/T-Task/app/img/3.png", "Кот полосатый", "20000 руб.", "Купить")
-            p(id="20") Коричнеый <br> окрас
-            p <span> 2 мес.</span><br> Возраст 
+            p Коричнеый <br> окрас
+            p(id="4") <span> 4 мес.</span><br> Возраст 
             p <span><b> 4</b></span> <br> Кол-во лапок
 
         +cardsList("D:/mine/T-Task/app/img/4.png", "Кот полосатый", "25000 руб.", "Купить")
-            p(id="25") Коричнеый <br> окрас
-            p <span> 2 мес.</span><br> Возраст 
+            p Коричнеый <br> окрас
+            p(id="6") <span> 6 мес.</span><br> Возраст 
             p <span><b> 4</b></span> <br> Кол-во лапок
         
         +cardsList("D:/mine/T-Task/app/img/5.png", "Кот полосатый", "30000 руб.", "Купить")
-            p(id="30") Коричнеый <br> окрас
-            p <span> 2 мес.</span><br> Возраст 
+            p Коричнеый <br> окрас
+            p(id="5") <span> 5 мес.</span><br> Возраст 
             p <span><b> 4</b></span> <br> Кол-во лапок
 
         +cardsList("D:/mine/T-Task/app/img/6.png", "Кот полосатый", "10000 руб.", "Продан")
-            p(id="10") Коричнеый <br> окрас
-            p <span> 2 мес.</span><br> Возраст 
+            p Коричнеый <br> окрас
+            p(id="9") <span> 9 мес.</span><br> Возраст 
             p <span><b> 4</b></span> <br> Кол-во лапок
 
 
